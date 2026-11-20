@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <p id ="msg" class = "msg hidden"> Скрытое сообщение</p>
+    <button id = "toggle"> Показать сообщение</button>
+    <!-- <p>
+        <a href="https:/hexlet.io" class = "link">Link</a>
+    </p> -->
+    <div class="block-control">
+    <form id="search-form" action="">
+  <input id="q" type="text" placeholder="Поиск">
+  <button type="submit">Найти</button>
+</form>
+<div>
+    <a id ="new-products" href="" class="link">Поступление товара</a>
+</div>
+</div>
+
+<table id="items">
+  <thead>
+    <tr>
+      <th data-sort="name">Название</th>
+      <th data-sort="sort">Цена</th>
+      <th>Действие</th>
+    </tr>
+  </thead>
+  <tbody>
+</table>
+
+<template id="row-tpl">
+  <tr>
+    <td class="name"></td>
+    <td class="price"></td>
+    <td> <button class="buy">Купить</button></td>
+  </tr>
+</template>
+
+<script defer src="shop.js"></script>
+<script defer src="assist.js"></script>
+<script defer src="app-shop.js"></script>
+</body>
+</html>

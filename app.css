@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.msg {
+    padding: 8px;
+    background-color: blueviolet;
+    color: aqua;
+}
+.link {
+    padding: 5px 7px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: left;
+
+}
+ th[data-sort] {
+    cursor: pointer;
+ }
+
+ .unavailable {
+    color: #999;
+ }
+
+ form {
+    margin: 7px 0 ;
+ }
+
+ .block-control{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+ }
